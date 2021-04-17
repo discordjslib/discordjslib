@@ -1,2 +1,2 @@
 # discordjslib
-A powerful node.js Discord library!
+A node.js Discord library!
