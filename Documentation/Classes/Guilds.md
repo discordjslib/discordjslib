@@ -1,1 +1,1 @@
-Represents a [Discord Guild](https://discord.com/developers/docs/resources/guild)
+## Represents a [Discord Guild](https://discord.com/developers/docs/resources/guild)

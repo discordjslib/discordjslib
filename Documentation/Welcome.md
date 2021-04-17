@@ -1,6 +1,6 @@
 Welcome to discordjslib documentation!
 
-##Classes:  
+## Classes:  
 
 - [Guilds](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Guilds.md)  
 
