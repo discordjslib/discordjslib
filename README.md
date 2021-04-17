@@ -9,8 +9,8 @@ npm i discordjslib
 Example:
 ```js
 const Discord = require('discordjslib')
-const client = new Discord().Client()
-client.channels.find('').then(channel => channel.send('Hello World!'))
+const client = new Discord().Client('token')
+client.channels.find('channelid').then(channel => channel.send('Hello World!'))
 ```
 
 Documentation: 
