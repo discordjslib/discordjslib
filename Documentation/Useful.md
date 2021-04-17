@@ -1,6 +1,7 @@
 Types:
 
-dm - direct message channel,   
+
+dm - direct message channel  
 
 category - category channel
 
