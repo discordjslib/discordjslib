@@ -1,5 +1,5 @@
 FAQ:
 
 What is discordjslib?
-A library to interact with the [Discord API](https://discord.com/developers/docs/intro)
 
+It is a library which interacts with the [Discord API](https://discord.com/developers/docs/intro)
