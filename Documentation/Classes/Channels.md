@@ -1,4 +1,4 @@
-A channel represents any type of Discord channel.
+A channel represents any type of [Discord channel](https://discord.com/developers/docs/resources/channel)   
 
 Properties:
 
@@ -41,7 +41,7 @@ Methods:
 
 `position(position - number), [reason - string])` changes the channels position returns channel [Object](https://javascript.info/object)
 
-.newInvite([options]) returns url [String](https://javascript.info/types#string)
+`.newInvite([options])` returns url [String](https://javascript.info/types#string)
 
 
 Represents a Discord [text channel](https://discord.com/developers/docs/resources/channel#channel-object-channel-types) and extends a ServerChannel
@@ -51,6 +51,9 @@ Properties:
 
 Methods: 
 
-`.send([message - string])` returns Message [Object](https://javascript.info/object)
+`.send([message - string])` returns message [Object](https://javascript.info/object)
 
 
+
+
+Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Channels)

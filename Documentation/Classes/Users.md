@@ -19,7 +19,7 @@ Properties:
 
 `.2fa` if the user has 2 factor authentication enabled - returns [Boolean](https://javascript.info/types#boolean-logical-type)
 
-`.flags` [Click Here for Examples](google.com) - returns [String](https://javascript.info/types#string)
+`.flags` [Click Here for Examples](https://discord.com/developers/docs/resources/user#user-object-user-flags) Note: the flags are listed under the description column - returns [String](https://javascript.info/types#string)
 
 `.roles` list of role objects for each guild - returns [Array](https://javascript.info/array)
 
