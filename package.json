@@ -1,10 +1,9 @@
 {
-  "name": "discordjslib",
+  "name": "discordjsjs",
   "version": "1.0.0",
   "description": "A powerful node.js Discord library!",
   "main": "index.js",
   "directories": {
-    "lib": "lib",
     "test": "test"
   },
   "scripts": {
