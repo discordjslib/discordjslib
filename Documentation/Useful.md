@@ -1,4 +1,6 @@
 Types {
+
+
     dm - direct message channel
     category - category channel
     text - text channel
@@ -6,4 +8,6 @@ Types {
     news - news channel
     store - store channel
     stage - stage channel 
+
+    
 }

@@ -15,13 +15,13 @@ Properties:
 
 `.bot` returns [Boolean](https://javascript.info/types#boolean-logical-type)
 
-`system` an official Discord system user - returns [Boolean](https://javascript.info/types#string)
+`.system` an official Discord system user - returns [Boolean](https://javascript.info/types#string)
 
 `.2fa` if the user has 2 factor authentication enabled - returns [Boolean](https://javascript.info/types#boolean-logical-type)
 
 `.flags` [Click Here for Examples](google.com) - returns [String](https://javascript.info/types#string)
 
-`roles` list of role objects for each guild - returns [Array](https://javascript.info/array)
+`.roles` list of role objects for each guild - returns [Array](https://javascript.info/array)
 
 
 Methods: 
@@ -29,14 +29,14 @@ Methods:
 Note: If guild id is not passed the function will be performed on all guilds the bot shares with the user
 
 
-`.dm([message])` direct messages a user - returns a user object [Object](https://javascript.info/object)
+`.dm([message - string])` direct messages a user - returns a user object [Object](https://javascript.info/object)
 
-`.ban([reason], [guild id])` bans a user - returns a user object [Object](https://javascript.info/object)
+`.ban([reason - string], [guild id - string])` bans a user - returns a user object [Object](https://javascript.info/object)
 
-`.kick([reason], [guild id])` kicks a user - returns a user object [Object](https://javascript.info/object)
+`.kick([reason - string], [guild id - string])` kicks a user - returns a user object [Object](https://javascript.info/object)
 
-`nickname([name], [reason], [guild id])` Changes a users nickname - returns a user object [Object](https://javascript.info/object)
+`.nickname([name - string], [reason - string], [guild id - string])` Changes a users nickname - returns a user object [Object](https://javascript.info/object)
 
-`hasPerm([[*permission flag], [reason], [guild id])` Checks a users permission - returns boolean [Boolean](https://javascript.info/types#boolean-logical-type)
+`.hasPerm([[*permission flag], [reason - string], [guild id - string])` Checks a users permission - returns boolean [Boolean](https://javascript.info/types#boolean-logical-type)
 
 *Permission flags listed [here](https://discord.com/developers/docs/topics/permissions#permissions-bitwise-permission-flags)

@@ -4,7 +4,7 @@ Properties:
 
 `.id` a snowflake - returns [String](https://javascript.info/types#string)
 
-`.type` the [type]() of Discord channel - returns [String](https://javascript.info/types#string)
+`.type` the [type](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Useful.md) of Discord channel - returns [String](https://javascript.info/types#string)
 
 `.guild` *guild - returns [Object](https://javascript.info/object)]
 
