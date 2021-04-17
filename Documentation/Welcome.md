@@ -1,16 +1,11 @@
 Welcome to discordjslib documentation!
 
-Classes: 
-<br/><br/>
+Classes:  
 
-[Guilds](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Guilds.md)
-<br/><br/>
+[Guilds](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Guilds.md)  
 
-[Channels](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Channels.md)
-<br/><br/>
+[Channels](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Channels.md)  
 
-[Users](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Users.md)
-<br/><br/>
+[Users](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Users.md)  
 
 [Messages](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Messages.md)
-<br/><br/>
