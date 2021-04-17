@@ -1,11 +1,10 @@
-A User represents both a GuildMember and a regular User
-(which means that you don't have to worry about specific GuildMember properties)
+### A User represents both a GuildMember and a regular User(which means that you don't have to worry about specific GuildMember properties)
 
 Properties:
 
 `.id` a snowflake - returns [String](https://javascript.info/types#string)
 
-`.username` returns [String](https://javascript.info/types#string)
+`.name` returns [String](https://javascript.info/types#string)
 
 `.discriminator` returns [Number](https://javascript.info/types#number)
 

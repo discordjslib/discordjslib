@@ -1,3 +1,3 @@
-const Discord = require('../lib/Discord')
+const Discord = require('discordjslib')
 const client = new Discord().Client()
-require('../lib/Gateway')
+client.channels.find('').then(c => console.log(c.name))

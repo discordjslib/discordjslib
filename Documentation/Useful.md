@@ -1,16 +1,16 @@
-Types:
+### Useful
 
+## Types:
 
-dm - direct message channel  
+- dm - direct message channel  
+- category - category channel
 
-category - category channel
+- text - text channel
 
-text - text channel
+- voice - voice channel
 
-voice - voice channel
+- news - news channel
 
-news - news channel
+- store - store channel
 
-store - store channel
-
-stage - stage channel
+- stage - stage channel

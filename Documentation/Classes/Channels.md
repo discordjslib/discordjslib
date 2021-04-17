@@ -1,4 +1,4 @@
-## A channel represents any type of [Discord channel](https://discord.com/developers/docs/resources/channel)   
+### A channel represents any type of [Discord channel](https://discord.com/developers/docs/resources/channel)   
 
 # Properties:
 
@@ -8,7 +8,9 @@
 
 `.guild` *guild - returns [Object](https://javascript.info/object)]
 
-`.lastMessage` Message object - returns [Object](https://javascript.info/object)
+`.lastMessage` message object - returns [Object](https://javascript.info/object)
+
+`.messages` list of channel message objects - returns [Array](https://javascript.info/array)
 
 
 *This will return null if the channel is a dm
@@ -20,9 +22,9 @@
 
 Extends the regular Channels Properties. The additional properties include:
 
-`.position` returns [Number]](https://javascript.info/types#number)
+`.position` returns [Number](https://javascript.info/types#number)
 
-`.permissions` returns Permission [Object](https://javascript.info/object)
+`.permissions` returns permission [Object](https://javascript.info/object)
 
 `.name` returns [String](https://javascript.info/types#string)
 
@@ -47,6 +49,7 @@ Extends the regular Channels Properties. The additional properties include:
 ## Represents a Discord [text channel](https://discord.com/developers/docs/resources/channel#channel-object-channel-types) and extends a ServerChannel
 
 # Properties:
+TO DO
 
 
 # Methods: 
