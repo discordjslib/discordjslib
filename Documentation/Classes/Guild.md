@@ -1,12 +1,12 @@
-### Represents a [Discord Guild](https://discord.com/developers/docs/resources/guild)
+# Represents a [Discord Guild](https://discord.com/developers/docs/resources/guild)
 
-# Properties: 
+## Properties: 
 
 `.id` returns [String](https://javascript.info/types#string)
 
 `.name` returns [String](https://javascript.info/types#string)
 
-.icon` returns [String](https://javascript.info/types#string)
+`.icon` returns [String](https://javascript.info/types#string)
 
 `.region` returns [String](https://javascript.info/types#string)
 
@@ -30,12 +30,16 @@
 
 `.bots` list of bot user objects in the guild - returns [Array](https://javascript.info/array)
 
-`createdAt` when the guild was created returns [Date](https://javascript.info/date)
+`.createdAt` when the guild was created - returns [Date](https://javascript.info/date)
 
 
-# Methods:
+## Methods:
 
 `.leave()` the bot leaves the guild
 
 `.name([name - string])` returns guild [Object](https://javascript.info/object)
 
+
+
+
+Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Guild)
