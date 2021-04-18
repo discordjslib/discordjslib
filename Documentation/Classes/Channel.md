@@ -1,4 +1,4 @@
-# A channel represents any type of [Discord channel](https://discord.com/developers/docs/resources/channel)   
+# A Channel is any type of [Discord channel](https://discord.com/developers/docs/resources/channel)   
 
 ## Properties:
 
@@ -6,14 +6,14 @@
 
 `.type` the [type](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Useful.md) of Discord channel - returns [String](https://javascript.info/types#string)
 
-`.guild` *guild - returns [Object](https://javascript.info/object)]
+`.guild` *guild - returns [Object](https://javascript.info/object)
 
 `.lastMessage` message object - returns [Object](https://javascript.info/object)
 
 *This will return null if the channel is a dm
 
 
-# ServerChannel 
+# ServerChannel extends Channel
 
 ## Properties:
 
@@ -32,7 +32,7 @@ Extends the regular Channels Properties. The additional properties include:
 
 ## Methods: 
 
-`.name([name - string], [reason - string])` changes the channels name - returns channel - [Object](https://javascript.info/object)
+`.name([name - string], [reason - string])` changes the channels name - returns channel [Object](https://javascript.info/object)
 
 `.parent([category - object], [reason - string])` changes the parent category - returns channel [Object](https://javascript.info/object)
 
@@ -43,7 +43,7 @@ Extends the regular Channels Properties. The additional properties include:
 `.newInvite([options])` returns url [String](https://javascript.info/types#string)
 
 
-# Represents a Discord [text channel](https://discord.com/developers/docs/resources/channel#channel-object-channel-types) and extends a ServerChannel
+# [Text channel](https://discord.com/developers/docs/resources/channel#channel-object-channel-types) extends ServerChannel
 
 ## Properties:
 
@@ -54,7 +54,6 @@ Extends the regular Channels Properties. The additional properties include:
 
 `.send([message - string])` returns message [Object](https://javascript.info/object)
 
-
-
+# Voice channel extends ServerChannel
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Channels)

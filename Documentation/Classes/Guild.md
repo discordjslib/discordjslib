@@ -1,4 +1,4 @@
-# Represents a [Discord Guild](https://discord.com/developers/docs/resources/guild)
+# A Guild is a [Discord guild](https://discord.com/developers/docs/resources/guild)
 
 ## Properties: 
 
@@ -15,6 +15,8 @@
 `.banner` returns [String](https://javascript.info/types#string)
 
 `.nitroLevel` returns [Number](https://javascript.info/types#number)
+
+`.nitroCount` returns [Number](https://javascript.info/types#number)
 
 `.vanity` returns [String](https://javascript.info/types#string)
 
