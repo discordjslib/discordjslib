@@ -1,6 +1,6 @@
-### A User represents both a [GuildMember](https://discord.com/developers/docs/resources/guild#guild-member-object) and a [User](https://discord.com/developers/docs/resources/user#user-object) (which means that you don't have to worry about specific GuildMember properties)
+## A User represents both a [GuildMember](https://discord.com/developers/docs/resources/guild#guild-member-object) and a [User](https://discord.com/developers/docs/resources/user#user-object) (which means that you don't have to worry about specific GuildMember properties)
 
-Properties:
+## Properties:
 
 `.id` a snowflake - returns [String](https://javascript.info/types#string)
 

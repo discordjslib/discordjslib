@@ -37,7 +37,9 @@
 
 `.leave()` the bot leaves the guild
 
-`.name([name - string])` returns guild [Object](https://javascript.info/object)
+`.name([name - string], [reason - string])` changes the guilds name - returns guild [Object](https://javascript.info/object)
+
+`.icon([image url - string], [reason- string])` changes the guilds icon - returns guild [Object](https://javascript.info/object)
 
 
 

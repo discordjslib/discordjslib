@@ -10,9 +10,6 @@
 
 `.lastMessage` message object - returns [Object](https://javascript.info/object)
 
-`.messages` list of channel message objects - returns [Array](https://javascript.info/array)
-
-
 *This will return null if the channel is a dm
 
 
@@ -35,13 +32,13 @@ Extends the regular Channels Properties. The additional properties include:
 
 ## Methods: 
 
-`.name([name - string], [reason - string])` changes the channels name returns channel - [Object](https://javascript.info/object)
+`.name([name - string], [reason - string])` changes the channels name - returns channel - [Object](https://javascript.info/object)
 
-`.parent([category - object], [reason - string])` changes the parent category returns channel [Object](https://javascript.info/object)
+`.parent([category - object], [reason - string])` changes the parent category - returns channel [Object](https://javascript.info/object)
 
-`.topic([topic - string], [reason - string])` changes the channels topic returns channel [Object](https://javascript.info/object)
+`.topic([topic - string], [reason - string])` changes the channels topic - returns channel [Object](https://javascript.info/object)
 
-`position(position - number), [reason - string])` changes the channels position returns channel [Object](https://javascript.info/object)
+`position(position - number), [reason - string])` changes the channels position - returns channel [Object](https://javascript.info/object)
 
 `.newInvite([options])` returns url [String](https://javascript.info/types#string)
 
@@ -49,7 +46,8 @@ Extends the regular Channels Properties. The additional properties include:
 # Represents a Discord [text channel](https://discord.com/developers/docs/resources/channel#channel-object-channel-types) and extends a ServerChannel
 
 ## Properties:
-TO DO
+
+`.messages` list of channel message objects - returns [Array](https://javascript.info/array)
 
 
 ## Methods: 
