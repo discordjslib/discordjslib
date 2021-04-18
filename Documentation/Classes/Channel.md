@@ -38,7 +38,7 @@ Extends the regular Channels Properties. The additional properties include:
 
 `.topic([topic - string], [reason - string])` changes the channels topic - returns channel [Object](https://javascript.info/object)
 
-`position(position - number), [reason - string])` changes the channels position - returns channel [Object](https://javascript.info/object)
+`.position(position - number), [reason - string])` changes the channels position - returns channel [Object](https://javascript.info/object)
 
 `.newInvite([options])` returns url [String](https://javascript.info/types#string)
 

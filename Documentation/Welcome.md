@@ -2,11 +2,11 @@
 
 ## Classes:  
 - [Client](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Client.md)
-- [Guilds](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Guild.md)  
-- [Channels](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Channel.md)  
-- [Users](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/User.md)  
-- [Messages](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Message.md)
-- [Roles](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Role.md)
+- [Guild](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Guild.md)  
+- [Channel](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Channel.md)  
+- [User](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/User.md)  
+- [Message](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Message.md)
+- [Role](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Role.md)
 
 
 ## Install:
