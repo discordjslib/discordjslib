@@ -16,7 +16,7 @@
 
 `.system` an official Discord system user - returns [Boolean](https://javascript.info/types#string)
 
-`.2fa` if the user has 2 factor authentication enabled - returns [Boolean](https://javascript.info/types#boolean-logical-type)
+`.twofa` if the user has 2 factor authentication enabled - returns [Boolean](https://javascript.info/types#boolean-logical-type)
 
 `.flags` [Click Here for Examples](https://discord.com/developers/docs/resources/user#user-object-user-flags) Note: the flags are listed under the description column - returns [String](https://javascript.info/types#string)
 
