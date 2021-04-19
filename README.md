@@ -1,6 +1,7 @@
 # discordjslib
 A node.js Discord library!
 
+<a href="https://nodei.co/npm/discordjslib/"><img src="https://nodei.co/npm/discordjslib.png?compact=true"></a>
 
 Install: 
 ```

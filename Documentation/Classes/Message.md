@@ -1,4 +1,4 @@
-# A Message is a [Discord message](https://discord.com/developers/docs/resources/channel#message-object)
+# A Message is a [Discord Message](https://discord.com/developers/docs/resources/channel#message-object)
 
 ## Properties:
 

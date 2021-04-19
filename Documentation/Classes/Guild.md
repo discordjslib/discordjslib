@@ -1,4 +1,4 @@
-# A Guild is a [Discord guild](https://discord.com/developers/docs/resources/guild)
+# A Guild is a [Discord Guild](https://discord.com/developers/docs/resources/guild)
 
 ## Properties: 
 

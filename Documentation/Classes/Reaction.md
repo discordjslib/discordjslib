@@ -1,4 +1,4 @@
-# A Reaction is a [Discord reaction](https://discord.com/developers/docs/resources/channel#reaction-object)
+# A Reaction is a [Discord Reaction](https://discord.com/developers/docs/resources/channel#reaction-object)
 
 ## Properties:
 

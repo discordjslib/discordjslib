@@ -1,0 +1,1 @@
+# A Role represents a Discord Role

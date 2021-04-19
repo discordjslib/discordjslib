@@ -1,4 +1,4 @@
-# A Channel is any type of [Discord channel](https://discord.com/developers/docs/resources/channel)   
+# A Channel is any type of [Discord Channel](https://discord.com/developers/docs/resources/channel)   
 
 ## Properties:
 
