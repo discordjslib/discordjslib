@@ -22,5 +22,5 @@
 
 *The message must be sent by the bot
 
-Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Messages/Message)
+Source Code: [Click Here](https://github.com/discordjslib/discordjslib/blob/main/lib/Classes/Messages/Message.js)   
 

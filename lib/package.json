@@ -1,6 +1,6 @@
 {
   "name": "discordjslib",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A node.js Discord library!",
   "main": "Discord.js",
   "directories": {
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/discordjslib/discordjslib#readme",
   "dependencies": {
     "node-fetch": "^2.6.1",
+    "query-string": "^7.0.0",
     "ws": "^7.4.5"
   }
 }
