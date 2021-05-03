@@ -6,6 +6,7 @@
 - [Channel](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Channel.md)  
 - [User](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/User.md)  
 - [Message](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Message.md)
+- [Reaction](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Reaction.md)
 - [Role](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Role.md)
 
 

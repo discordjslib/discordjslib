@@ -1,4 +1,7 @@
-# A Channel is any type of [Discord Channel](https://discord.com/developers/docs/resources/channel)   
+# A Channel is any type of [Discord Channel](https://discord.com/developers/docs/resources/channel) 
+```js
+new Discord().Channel(channel, client)
+```
 
 ## Properties:
 
@@ -14,6 +17,9 @@
 
 
 # ServerChannel extends Channel
+```js
+new Discord().ServerChannel(channel, client)
+```
 
 ## Properties:
 
@@ -44,6 +50,9 @@ Extends the regular Channels Properties. The additional properties include:
 
 
 # [Text channel](https://discord.com/developers/docs/resources/channel#channel-object-channel-types) extends ServerChannel
+```js
+new Discord().Text(channel, client)
+```
 
 ## Properties:
 

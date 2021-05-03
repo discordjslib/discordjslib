@@ -1,8 +1,13 @@
 # A Guild is a [Discord Guild](https://discord.com/developers/docs/resources/guild)
+```js
+new Discord().Guild(guild, client)
+```
 
 ## Properties: 
 
 `.id` returns [String](https://javascript.info/types#string)
+
+`.avaliable` returns [Boolean](https://javascript.info/types#boolean-logical-type)
 
 `.name` returns [String](https://javascript.info/types#string)
 
@@ -24,20 +29,22 @@
 
 `.channels` list of channel objects in the guild - returns [Array](https://javascript.info/array)
 
-`.users` list of user objects in the guild - returns [Array](https://javascript.info/array)
+`.users` returns [GuildUsers](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Guild.md#GuildEmojis)
+
+`.emojis` returns [GuildEmojis](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Guild.md#GuildEmojis)
 
 `.owner` the owner of the guild - returns user [Object](https://javascript.info/object)
 
 `.admins` list of user objects with the administrator permission returns [Array](https://javascript.info/array)
 
-`.bots` list of bot user objects in the guild - returns [Array](https://javascript.info/array)
+`.bots` list of bot users in the guild - returns [Array](https://javascript.info/array)
 
 `.createdAt` when the guild was created - returns [Date](https://javascript.info/date)
 
 
 ## Methods:
 
-`.leave()` the bot leaves the guild
+`.leave([timeout - Number])` leave the guild - returns guild [Object](https://javascript.info/object)
 
 `.name([name - string], [reason - string])` changes the guilds name - returns guild [Object](https://javascript.info/object)
 

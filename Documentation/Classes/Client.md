@@ -1,5 +1,9 @@
 # A Client represents a Discord client
+```js
+new Discord().Client(token, options)
+```
 
+```
 ## Properties:
 
 `.user` returns the client as a user [Object](https://javascript.info/object)
@@ -14,4 +18,25 @@
 
 `.guilds` returns a ClientGuilds class
 
-## Methods:
+## Events:
+`client.on('event', () => {})`
+
+`message` Emits when a message is sent - parameter: message object
+
+`channelCreate` Emits when a channel is deleted - parameter: channel object
+
+`channelUpdate` Emits when a channel is updated - parameter: channel object
+
+`channelDelete` Emits when a channel is deleted - parameter: message object
+
+`channelPinsUpdate` Emits when the pins of a channel is updated - parameter: channel object
+
+`guildJoin` Emits when the client is added to a new server - parameter: guild object
+
+`guildUpdate` Emits when a guild is updated - parameter: guild object
+
+`guildLeave` Emits when a client is removed or has left a server - parameter: guild object
+
+`guildBan` Emits when a GuildMember is banned from a server - parameter: guild and user, object
+
+`guildUnban` Emits when a user is unbanned from a server

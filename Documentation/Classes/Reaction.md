@@ -1,4 +1,7 @@
 # A Reaction is a [Discord Reaction](https://discord.com/developers/docs/resources/channel#reaction-object)
+```js
+new Discord().Reaction(reaction, message, client)
+```
 
 ## Properties:
 
