@@ -1,1 +1,1 @@
-# A Role represents a Discord Role
+# A Role represents a [Discord Role](https://discord.com/developers/docs/resources/guild#role-object)

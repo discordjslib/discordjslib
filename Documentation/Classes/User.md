@@ -1,4 +1,4 @@
-## A User is both a [Discord GuildMember](https://discord.com/developers/docs/resources/guild#guild-member-object) and a [User](https://discord.com/developers/docs/resources/user#user-object) (which means that you don't have to worry about specific GuildMember properties and methods)
+## A User represents a [Discord User](https://discord.com/developers/docs/resources/user#user-object)
 
 ## Properties:
 
