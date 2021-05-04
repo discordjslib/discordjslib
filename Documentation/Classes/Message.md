@@ -67,4 +67,4 @@ new Discord().MessageEmbed(data)
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Message/MessageEmbed.js)
 
-<button name="button" onclick="https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Reaction.md">Next Page</button>
+[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Reaction.md)

@@ -20,4 +20,4 @@ new Discord().Reaction(reaction, message, client)
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Message/Reaction)
 
-<button name="button" onclick="https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Role.md">Next Page</button>
+[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Role.md)

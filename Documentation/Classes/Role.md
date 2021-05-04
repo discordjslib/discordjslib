@@ -12,4 +12,4 @@ new Discord().Role(role, guild, client)
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Guild/Role)
 
-<button name="button" onclick="https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/User.md">Next Page</button>
+[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/User.md)

@@ -53,4 +53,4 @@ new Discord().Guild(guild, client)
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Guild/Guild.js)
 
-<button name="button" onclick="https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/GuildMember.md">Next Page</button>
+[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/GuildMember.md)

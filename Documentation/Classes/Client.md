@@ -43,4 +43,4 @@ new Discord().Client(token, options)
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Client/Client.js)
 
-<button name="button" onclick="https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Guild.md">Next Page</button>
+[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Guild.md)

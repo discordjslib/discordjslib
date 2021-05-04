@@ -3,10 +3,10 @@
 new Discord().GuildMember(member, guild, client)
 ```
 
-# Properties:
+## Properties:
 `.roles` list of role objects for each guild - returns [Array](https://javascript.info/array)
 
-# Methods:
+## Methods:
 `.ban([reason - string])` bans a user - returns a user object [Object](https://javascript.info/object)
 
 `.kick([reason - string])` kicks a user - returns a user object [Object](https://javascript.info/object)
@@ -21,4 +21,4 @@ new Discord().GuildMember(member, guild, client)
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/User/GuildMember.js)
 
-<button name="button" onclick="https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Message.md">Next Page</button>
+[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Message.md)
