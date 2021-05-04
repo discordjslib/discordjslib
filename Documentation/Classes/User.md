@@ -23,11 +23,12 @@ new Discord().User(client, user)
 
 `.flags` [Click Here for Examples](https://discord.com/developers/docs/resources/user#user-object-user-flags) Note: the flags are listed under the description column - returns [String](https://javascript.info/types#string)
 
-`.roles` list of role objects for each guild - returns [Array](https://javascript.info/array)
-
 
 Methods: 
 
 `.dm([message - string])` direct messages a user - returns a user object [Object](https://javascript.info/object)
 
-Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/User)
+
+Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/User/User.js)
+
+<button name="button" onclick="https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Channel.md">Next Page</button>

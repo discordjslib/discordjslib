@@ -51,6 +51,6 @@ new Discord().Guild(guild, client)
 `.icon([image url - string], [reason- string])` changes the guilds icon - returns guild [Object](https://javascript.info/object)
 
 
+Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Guild/Guild.js)
 
-
-Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Guild)
+<button name="button" onclick="https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/GuildMember.md">Next Page</button>

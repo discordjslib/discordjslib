@@ -65,4 +65,7 @@ new Discord().Text(channel, client)
 
 # Voice channel extends ServerChannel
 
+
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Channels)
+
+<button name="button" onclick="https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Client.md">Next Page</button>

@@ -3,7 +3,6 @@
 new Discord().Client(token, options)
 ```
 
-```
 ## Properties:
 
 `.user` returns the client as a user [Object](https://javascript.info/object)
@@ -40,3 +39,8 @@ new Discord().Client(token, options)
 `guildBan` Emits when a GuildMember is banned from a server - parameter: guild and user, object
 
 `guildUnban` Emits when a user is unbanned from a server
+
+
+Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Client/Client.js)
+
+<button name="button" onclick="https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Guild.md">Next Page</button>

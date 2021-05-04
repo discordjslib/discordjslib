@@ -5,7 +5,12 @@ new Discord().Message(message, channel, client)
 
 ## Properties:
 
+
+`.client` returns the client [Object](https://javascript.info/object)
+
 `.user` the author of the message - returns user [Object](https://javascript.info/object)
+
+`.member` returns guildmember [Object](https://javascript.info/object)
 
 `.channel` the channel the message was sent in - returns channel [Object](https://javascript.info/object)
 
@@ -15,13 +20,13 @@ new Discord().Message(message, channel, client)
 
 ## Methods:
 
-`.delete()` deletes the message - returns message [Object](https://javascript.info/object)
+`.delete([Number - (timeout)])` deletes the message - returns message [Object](https://javascript.info/object)
 
-`.edit([message - string])` *edits the message - returns message [Object](https://javascript.info/object)
+`.edit([String])` *edits the message - returns message [Object](https://javascript.info/object)
 
 `.pin()` pins the message - returns channel pins 
 
-`.react([emoji - string])` reacts to a message - returns [message reaction](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Reaction.md)) [Object](https://javascript.info/object)
+`.react([String])` reacts to a message - returns [message reaction](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Reaction.md)) [Object](https://javascript.info/object)
 
 *The message must be sent by the bot
 
@@ -32,51 +37,34 @@ Source Code: [Click Here](https://github.com/discordjslib/discordjslib/blob/main
 new Discord().MessageEmbed(data)
 ```
 
-## Properties: 
+## Properties:                                                                  ## Methods
+                                                                                Note: Unless indicated otherwise, all methods return `this`
 
-`.title` returns [String](https://javascript.info/types#string)
+`.title` returns [String](https://javascript.info/types#string)                 `.addTitle(String)` 
 
-`.description` returns [String](https://javascript.info/types#string)
+`.description` returns [String](https://javascript.info/types#string)           `.addDescription(String)`     
 
-`.fields` returns [Array](https://javascript.info/array)
+`.fields` returns [Array](https://javascript.info/array)                        `.addField(String)`
 
-`.author` returns returns [String](https://javascript.info/types#string)
+`.author` returns returns [String](https://javascript.info/types#string)        `.addAuthor(String)`
 
-`.color` returns [String](https://javascript.info/types#string)
+`.color` returns [String](https://javascript.info/types#string)                 `.addColor(String)`
 
-`.colour` returns [String](https://javascript.info/types#string)
+`.colour` returns [String](https://javascript.info/types#string)                `.addColour(String)`
 
-`.url` returns [String](https://javascript.info/types#string)
+`.url` returns [String](https://javascript.info/types#string)                   `.addUrl(String)`
 
-`.timestamp` returns [Date](https://javascript.info/date)
+`.timestamp` returns [Date](https://javascript.info/date)                       `.addTimestamp(Date Object)`
 
-`.thumbnail` returns [String](https://javascript.info/types#string)
+`.thumbnail` returns [String](https://javascript.info/types#string)             `.addThumbnail(String)`
 
-`.footer` returns [Array](https://javascript.info/array)
+`.footer` returns [Array](https://javascript.info/array)                        `.addFooter(String)`
 
-`.files` returns [Array](https://javascript.info/array)
+`.files` returns [Array](https://javascript.info/array)                         `.addFile(String])`
 
-## Methods
-`.addTitle([String](https://javascript.info/types#string))`
-
-`.addDescription([String](https://javascript.info/types#string))`
-
-`.addField([String](https://javascript.info/types#string))`
-
-`.addAuthor([String](https://javascript.info/types#string))`
-
-`.addColor([String](https://javascript.info/types#string))`
-
-`.addColour([String](https://javascript.info/types#string))`
-
-`.addUrl([String](https://javascript.info/types#string))`
-
-`.addTimestamp([Date](https://javascript.info/date))`
-
-`.addFile([String](https://javascript.info/types#string))`
-
-`.addFooter([String](https://javascript.info/types#string))`
-
-`.toObject()` - returns [Discord Embed](https://discord.com/developers/docs/resources/channel#embed-object)
+                                                                                `.toObject()` - returns [Discord Embed](https://discord.com/developers/docs/resources/channel#embed-object)
 
 
+Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Message/MessageEmbed.js)
+
+<button name="button" onclick="https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Reaction.md">Next Page</button>

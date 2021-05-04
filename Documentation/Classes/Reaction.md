@@ -17,3 +17,7 @@ new Discord().Reaction(reaction, message, client)
 
 `.unreactAll()` unreacts all users from the reaction - returns message [Object](https://javascript.info/object)
 
+
+Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Message/Reaction)
+
+<button name="button" onclick="https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Role.md">Next Page</button>
