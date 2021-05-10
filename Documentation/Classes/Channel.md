@@ -9,12 +9,6 @@ new Discord().Channel(channel, client)
 
 `.type` the [type](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Useful.md) of Discord channel - returns [String](https://javascript.info/types#string)
 
-`.guild` *guild - returns [Object](https://javascript.info/object)
-
-`.lastMessage` message object - returns [Object](https://javascript.info/object)
-
-*This will return null if the channel is a dm
-
 
 # ServerChannel extends Channel
 ```js
@@ -58,12 +52,11 @@ new Discord().Text(channel, client)
 
 `.messages` list of channel message objects - returns [Array](https://javascript.info/array)
 
+`.lastMessage` returns message [Object](https://javascript.info/object)
 
 ## Methods: 
 
-`.send(message content)` returns message [Object](https://javascript.info/object)
-
-# Voice channel extends ServerChannel
+`.send(content)` returns message [Object](https://javascript.info/object)
 
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Channels)

@@ -19,9 +19,12 @@
 ```js
 const Discord = require('discordjslib')
 const client = new Discord().Client('client-token')
+
 client.channels.find('channel-id').then(channel => channel.send('Hello World!'))
+
 client.on('message', message => {
-    if(message.user.bot) return
-    message.reply('Hello World!')
+    if (message.content === 'Hello') {
+        message.reply('Hello World!')
+    }
 })
 ```

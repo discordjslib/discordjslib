@@ -61,7 +61,7 @@ new Discord().MessageEmbed(data)
 
 `.files` returns [Array](https://javascript.info/array)                         
 
-                                                                                
+                                                                          
  ## Methods
 
 Note: Unless indicated otherwise, all methods return `this`

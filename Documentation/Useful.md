@@ -20,12 +20,12 @@ guild.members.find('Member-ID').then(member => member.ban('Banned by Discordjsli
 Find and DM User:
 ```js
 const user = await client.users.find('User-ID')
-user.dm('Hello World!').then(message => message.delete())
+user.dm('Hello World!').then(message => console.log(`Messaged ${user.name}!`))
 ```
 Find, send a message and delete a Channel:
 ```js
 const channel = await client.channels.find('channel-id')
-channel.send('Hello World!').then(message => message.channel.delete())
+channel.send('Goodbye World!').then(message => message.channel.delete())
 ```
 Find and delete a Role:
 ```js

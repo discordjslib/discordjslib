@@ -1,4 +1,4 @@
-# A Client represents a Discord client
+# A Client represents a [Discord Client](https://discord.com/developers/applications)
 ```js
 new Discord().Client(token, options)
 ```
