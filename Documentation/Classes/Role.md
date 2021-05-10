@@ -2,6 +2,15 @@
 ```js
 new Discord().Role(role, guild, client)
 ```
+## Properties:
+
+`.client` returns client [Object](https://javascript.info/object)
+
+`.name` returns [String](https://javascript.info/types#string)   
+
+`.animated` returns [String](https://javascript.info/types#boolean-logical-type) 
+
+`.guild` returns guild [Object](https://javascript.info/object)
 
 ## Methods:
 

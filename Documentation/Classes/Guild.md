@@ -33,7 +33,7 @@ new Discord().Guild(guild, client)
 
 `.emojis` returns [GuildEmojis](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Guild.md#GuildEmojis)
 
-`.owner` the owner of the guild - returns user [Object](https://javascript.info/object)
+`.owner` the owner of the guild (may be null) - returns user [Object](https://javascript.info/object)
 
 `.admins` list of user objects with the administrator permission returns [Array](https://javascript.info/array)
 
@@ -46,10 +46,11 @@ new Discord().Guild(guild, client)
 
 `.leave([timeout - Number])` leave the guild - returns guild [Object](https://javascript.info/object)
 
-`.name([name - string], [reason - string])` changes the guilds name - returns guild [Object](https://javascript.info/object)
+`.setName([name - string], [reason - string])` changes the guilds name - returns guild [Object](https://javascript.info/object)
 
-`.icon([image url - string], [reason- string])` changes the guilds icon - returns guild [Object](https://javascript.info/object)
+`.setIcon([image url - string], [reason- string])` changes the guilds icon - returns guild [Object](https://javascript.info/object)
 
+`.findOwner()` find the owner returns user [Object](https://javascript.info/object)
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Guild/Guild.js)
 

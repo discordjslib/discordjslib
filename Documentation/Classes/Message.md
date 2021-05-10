@@ -26,7 +26,7 @@ new Discord().Message(message, channel, client)
 
 `.pin()` pins the message - returns channel pins 
 
-`.react([String])` reacts to a message - returns [message reaction](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Reaction.md)) [Object](https://javascript.info/object)
+`.react([String])` reacts to a message - returns [message reaction](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Reaction.md) [Object](https://javascript.info/object)
 
 *The message must be sent by the bot
 
@@ -37,32 +37,58 @@ Source Code: [Click Here](https://github.com/discordjslib/discordjslib/blob/main
 new Discord().MessageEmbed(data)
 ```
 
-## Properties:                                                                  ## Methods
-                                                                                Note: Unless indicated otherwise, all methods return `this`
+## Properties:                                                                 
 
-`.title` returns [String](https://javascript.info/types#string)                 `.addTitle(String)` 
+`.title` returns [String](https://javascript.info/types#string)                 
 
-`.description` returns [String](https://javascript.info/types#string)           `.addDescription(String)`     
+`.description` returns [String](https://javascript.info/types#string)             
 
-`.fields` returns [Array](https://javascript.info/array)                        `.addField(String)`
+`.fields` returns [Array](https://javascript.info/array)                        
 
-`.author` returns returns [String](https://javascript.info/types#string)        `.addAuthor(String)`
+`.author` returns returns [String](https://javascript.info/types#string)       
 
-`.color` returns [String](https://javascript.info/types#string)                 `.addColor(String)`
+`.color` returns [String](https://javascript.info/types#string)                 
 
-`.colour` returns [String](https://javascript.info/types#string)                `.addColour(String)`
+`.colour` returns [String](https://javascript.info/types#string)                
 
-`.url` returns [String](https://javascript.info/types#string)                   `.addUrl(String)`
+`.url` returns [String](https://javascript.info/types#string)                  
 
-`.timestamp` returns [Date](https://javascript.info/date)                       `.addTimestamp(Date Object)`
+`.timestamp` returns [Date](https://javascript.info/date)                       
 
-`.thumbnail` returns [String](https://javascript.info/types#string)             `.addThumbnail(String)`
+`.thumbnail` returns [String](https://javascript.info/types#string)             
 
-`.footer` returns [Array](https://javascript.info/array)                        `.addFooter(String)`
+`.footer` returns [Array](https://javascript.info/array)                      
 
-`.files` returns [Array](https://javascript.info/array)                         `.addFile(String])`
+`.files` returns [Array](https://javascript.info/array)                         
 
-                                                                                `.toObject()` - returns [Discord Embed](https://discord.com/developers/docs/resources/channel#embed-object)
+                                                                                
+ ## Methods
+
+Note: Unless indicated otherwise, all methods return `this`
+
+`.addTitle(String)` 
+
+`.addDescription(String)` 
+
+`.addField(String)`
+
+`.addAuthor(String)`
+
+`.addColor(String)`
+
+`.addColour(String)`
+
+`.addUrl(String)`
+
+`.addTimestamp(Date Object)`
+
+`.addThumbnail(String)`
+
+`.addFooter(String)`
+
+`.addFile(String)`
+
+`.toObject()` - returns [Discord Embed](https://discord.com/developers/docs/resources/channel#embed-object)
 
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Message/MessageEmbed.js)

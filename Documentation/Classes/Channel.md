@@ -38,13 +38,13 @@ Extends the regular Channels Properties. The additional properties include:
 
 ## Methods: 
 
-`.name([name - string], [reason - string])` changes the channels name - returns channel [Object](https://javascript.info/object)
+`.setName([name - string], [reason - string])` changes the channels name - returns channel [Object](https://javascript.info/object)
 
-`.parent([category - object], [reason - string])` changes the parent category - returns channel [Object](https://javascript.info/object)
+`.setParent([category - object], [reason - string])` changes the parent category - returns channel [Object](https://javascript.info/object)
 
-`.topic([topic - string], [reason - string])` changes the channels topic - returns channel [Object](https://javascript.info/object)
+`.setTopic([topic - string], [reason - string])` changes the channels topic - returns channel [Object](https://javascript.info/object)
 
-`.position(position - number), [reason - string])` changes the channels position - returns channel [Object](https://javascript.info/object)
+`.setPosition(position - number), [reason - string])` changes the channels position - returns channel [Object](https://javascript.info/object)
 
 `.newInvite([options])` returns url [String](https://javascript.info/types#string)
 
@@ -61,7 +61,7 @@ new Discord().Text(channel, client)
 
 ## Methods: 
 
-`.send([message - string])` returns message [Object](https://javascript.info/object)
+`.send(message content)` returns message [Object](https://javascript.info/object)
 
 # Voice channel extends ServerChannel
 

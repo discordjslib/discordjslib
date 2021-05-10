@@ -26,7 +26,6 @@ new Discord().User(client, user)
 
 `.dm(message content)` direct messages a user - returns a user object [Object](https://javascript.info/object)
 
-
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/User/User.js)
 
 [Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Channel.md)

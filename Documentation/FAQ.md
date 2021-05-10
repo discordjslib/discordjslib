@@ -1,14 +1,12 @@
 # FAQ:
 
-## What is discordjslib?
+## What is Discordjslib?
 
 - A [Node.js](https://nodejs.org/en/) library which interacts with the [Discord API](https://discord.com/developers/docs/intro)
 
-## Why is discordjslib different to other libraries?
-- discordjslib improves performance substantially because it does not cache any data on startup. This means that once it connects to Discords [gateway](https://discord.com/developers/docs/topics/gateway) no data is saved. Unlike other libraries, this makes discordjslib much faster and consumes less resources and processing power.
+## Why is Discordjslib different to other libraries?
+- Discordjslib improves performance substantially because it does not cache any data on startup. This means that once it connects to Discord's [gateway](https://discord.com/developers/docs/topics/gateway) no data is saved. Unlike other libraries, this makes discordjslib much faster and consumes less resources and processing power. However, this means that it does make many api calls, but don't worry - the library has a built in ratelimit calculator to prevent api abuse and your bot getting banned!
 
-- users are represented as both guildmembers and users. As a result, this means that you do not have to worry about specific GuildMember properties and methods.
+- Simple and easy to use - example: [click here](https://github.com/discordjslib/discordjslib#discordjslib)
 
-- simple and easy to use - example: [click here](https://github.com/discordjslib/discordjslib#discordjslib)
-
-- well documented - many libraries are not!
+- Well documented - many libraries are not!
