@@ -1,13 +1,14 @@
 # A Client represents a [Discord Client](https://discord.com/developers/applications)
+
 ```js
-new Discord().Client(token, options)
+new Discord().Client(token, options);
 ```
 
 ## Properties:
 
-`.user` returns the client as a user [Object](https://javascript.info/object)
+`.user` returns the client as a user [object](https://javascript.info/object)
 
-`.token` returns the token supplied in the constructor [String](https://javascript.info/types#string)
+`.token` returns the token supplied in the constructor [string](https://javascript.info/types#string)
 
 `.users` returns a ClientUsers class
 
@@ -17,7 +18,12 @@ new Discord().Client(token, options)
 
 `.guilds` returns a ClientGuilds class
 
+## Methods:
+
+`.disconnect()` terminates connection to Discord's gateway - returns token [string](https://javascript.info/types#string)
+
 ## Events:
+
 `client.on('event', () => {})`
 
 `message` Emits when a message is sent - parameter: message object
@@ -40,6 +46,13 @@ new Discord().Client(token, options)
 
 `guildUnban` Emits when a user is unbanned from a server
 
+## Caching:
+
+```js
+new Discord().Client("token", { cache: ["USERS", "EMOJIS"] });
+client.caching.save(["GUILDS", "CHANNELS", "MEMBERS"]); // *Adds new strucutres to be cached
+client.caching.delete(["USERS", "EMOJIS"]); // Removes specific structures from the cache
+```
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Client/Client.js)
 

@@ -1,3 +1,5 @@
 node_modules/
+Test/
+.vscode/
 index.js
-README
+README.MD

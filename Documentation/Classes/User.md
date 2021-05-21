@@ -1,30 +1,30 @@
 # A User represents a [Discord User](https://discord.com/developers/docs/resources/user#user-object)
+
 ```js
-new Discord().User(client, user)
+new Discord().User(client, user);
 ```
 
 ## Properties:
 
-`.id` a snowflake - returns [String](https://javascript.info/types#string)
+`.id` a snowflake - returns [string](https://javascript.info/types#string)
 
-`.name` returns [String](https://javascript.info/types#string)
+`.name` returns [string](https://javascript.info/types#string)
 
-`.discriminator` returns [Number](https://javascript.info/types#number)
+`.discriminator` returns [number](https://javascript.info/types#number)
 
-`.tag` a Discord mention - returns [String](https://javascript.info/types#string)
+`.tag` a Discord mention - returns [string](https://javascript.info/types#string)
 
-`.avatar` returns [String](https://javascript.info/types#string)
+`.avatar` returns [string](https://javascript.info/types#string)
 
-`.bot` returns [Boolean](https://javascript.info/types#boolean-logical-type)
+`.bot` returns [boolean](https://javascript.info/types#boolean-logical-type)
 
-`.system` an official Discord system user - returns [Boolean](https://javascript.info/types#string)
+`.system` an official Discord system user - returns [boolean](https://javascript.info/types#string)
 
-`.flags` [Click Here for Examples](https://discord.com/developers/docs/resources/user#user-object-user-flags) Note: the flags are listed under the description column - returns [String](https://javascript.info/types#string)
+`.flags` [Click Here for Examples](https://discord.com/developers/docs/resources/user#user-object-user-flags) Note: the flags are listed under the description column - returns [string](https://javascript.info/types#string)
 
+## Methods:
 
-## Methods: 
-
-`.dm(message content)` direct messages a user - returns a user object [Object](https://javascript.info/object)
+`.dm(message content)` direct messages a user - returns a user object [object](https://javascript.info/object)
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/User/User.js)
 

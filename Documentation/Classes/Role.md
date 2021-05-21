@@ -1,25 +1,26 @@
 # A Role represents a [Discord Role](https://discord.com/developers/docs/resources/guild#role-object)
+
 ```js
-new Discord().Role(role, guild, client)
+new Discord().Role(role, guild, client);
 ```
+
 ## Properties:
 
-`.client` returns client [Object](https://javascript.info/object)
+`.client` returns client [object](https://javascript.info/object)
 
-`.name` returns [String](https://javascript.info/types#string)   
+`.name` returns [string](https://javascript.info/types#string)
 
-`.animated` returns [Boolean](https://javascript.info/types#boolean-logical-type) 
+`.animated` returns [boolean](https://javascript.info/types#boolean-logical-type)
 
-`.guild` returns guild [Object](https://javascript.info/object)
+`.guild` returns guild [object](https://javascript.info/object)
 
 ## Methods:
 
-`.delete()` returns the delete role [Object](https://javascript.info/object)
+`.delete()` returns the delete role [object](https://javascript.info/object)
 
-`.setName(String)` - returns `this`
+`.setName(string)` - returns `this`
 
 `.setColor(color hex)` - returns `this`
-
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Guild/Role)
 
