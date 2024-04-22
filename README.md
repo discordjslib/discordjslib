@@ -1,12 +1,27 @@
 # Discordjslib
-A node.js Discord library!
 
-<a href="https://nodei.co/npm/discordjslib/"><img src="https://nodei.co/npm/discordjslib.png?compact=true"></a>
+Discordjslib is a lightweight Node.js library which interacts with the Discord API, focusing on simplicity and efficiency. It offers a streamlined experience, free from unnecessary features and bloatware.
+
+**Key Features:**
+
+- **Simplified API Interaction**: With a uniquely concise structure, Discordjslib enables developers of all skill levels to get started quickly.
+
+- **Updated Documentation**: Enjoy a user-friendly experience with up-to-date documentation.
+
+- **Bloat-Free, Real-Time Data**: Unlike other libraries, Discordjslib fetches data from the Discord API in real-time with each request, without a need for caching, which ensures accuracy and reliability for your applications.
+
+
+
+
 
 Install: 
 ```
-npm i discordjslib
+npm install discordjslib
 ```
+
+
+<a href="https://nodei.co/npm/discordjslib/"><img src="https://nodei.co/npm/discordjslib.png?compact=true"></a>
+
 
 Example:
 ```js
@@ -26,4 +41,4 @@ client.on('message', message => {
 
 - FAQ: [Click Here](https://github.com/discordjslib/discordjslib/blob/main/Documentation/FAQ.md)
 
-- Contribute: [Click Here](https://opensource.guide/how-to-contribute/)
+- Contribute: [Click Here](https://opensource.guide/how-to-contribute/)    
