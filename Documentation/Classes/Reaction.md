@@ -13,11 +13,6 @@ new Discord().Reaction(reaction, message, client)
 
 `.users` the users who reacted to the message (use Array.length to find the number of people who reacted) - returns user [Array](https://javascript.info/array) 
 
-## Methods:
-
-`.unreactAll()` unreacts all users from the reaction - returns message [Object](https://javascript.info/object)
-
-
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Message/Reaction)
 
 [Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Role.md)
