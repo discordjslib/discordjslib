@@ -10,7 +10,7 @@ new Discord().Message(message, channel, client)
 
 `.user` the author of the message - returns user [Object](https://javascript.info/object)
 
-`.member` returns guildmember [Object](https://javascript.info/object)
+`.member` returns guildmember (value not guaranteed; use .member() for reliablity) [Object](https://javascript.info/object)
 
 `.channel` the channel the message was sent in - returns channel [Object](https://javascript.info/object)
 
@@ -18,13 +18,27 @@ new Discord().Message(message, channel, client)
 
 `.content` the content of the message - returns [String](https://javascript.info/types#string)
 
+`.pinned` returns [Boolean](https://javascript.info/types#boolean-logical-type)
+
+`.reference` returns [Object](https://javascript.info/object)
+
+`.tts` returns [Boolean](https://javascript.info/types#boolean-logical-type)
+
+`.webhook` returns [Boolean](https://javascript.info/types#boolean-logical-type)
+
+`.attachements` returns [Array](https://javascript.info/array) 
+
+`.mentions` returns list of User objects [Array](https://javascript.info/array) 
+
 ## Methods:
+
+`.member()` fetches member object from API - returns GuildMember [Object](https://javascript.info/object)
+
+`.reply` - responds to message, mentioning original User - returns Message [Object](https://javascript.info/object)
 
 `.delete([Number - (timeout)])` deletes the message - returns message [Object](https://javascript.info/object)
 
 `.edit([String])` *edits the message - returns message [Object](https://javascript.info/object)
-
-`.pin()` pins the message - returns channel pins 
 
 `.react([String])` reacts to a message - returns [message reaction](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Reaction.md) [Object](https://javascript.info/object)
 
