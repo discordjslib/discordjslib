@@ -5,11 +5,19 @@ new Discord().GuildMember(member, guild, client)
 
 ## Properties:
 
-`.guild` returns guild [Object](https://javascript.info/object)
+`.guild` returns Guild [Object](https://javascript.info/object)
 
-`.roles` list of role objects for each guild - returns [Array](https://javascript.info/array)
+`.user` returns User [Object](https://javascript.info/object)
+
+`.roles` list of assigned role objects - returns [Array](https://javascript.info/array)
 
 `.manageable` returns [Boolean](https://javascript.info/types#boolean-logical-type)
+
+`.permissions` returns [String](https://javascript.info/types#string)
+
+`.premiumSince` returns [Date](https://javascript.info/date)    
+
+`.voice` returns [Object](https://javascript.info/object)
 
 ## Methods:
 `.ban([reason - string])` bans a user - returns a user object [Object](https://javascript.info/object)
