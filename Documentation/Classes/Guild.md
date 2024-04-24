@@ -51,6 +51,35 @@ new Discord().Guild(guild, client)
 
 `.findOwner()` returns [User](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/User.md) [Object](https://javascript.info/object)
 
+# A GuildInvite is a [Discord Invite](https://discord.com/developers/docs/resources/invite#invite-object-invite-structure)
+```js
+new Discord().GuildInvite(guild, client)
+```
+
+## Properties: 
+
+`.client` returns Client [Object](https://javascript.info/object)
+
+`.code` a unique ID - returns [String](https://javascript.info/types#string)
+
+`.channel` the Channel this invite is for - returns [Object](https://javascript.info/object)
+
+`.guild` partial Guild - returns [Object](https://javascript.info/object)
+
+`.inviter` the user who created the invite - returns [Object](https://javascript.info/object)
+
+`.expires` returns [Date](https://javascript.info/date)
+
+`.members` an approximate count of total members - returns [Number](https://javascript.info/types#number)
+
+`.online` an approximate count of online members - returns [Number](https://javascript.info/types#number)
+
+## Methods: 
+
+`.delete` returns `this`
+
+`.toString()` the invite URL - returns [String](https://javascript.info/types#string)
+
 
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Guild/Guild.js)
