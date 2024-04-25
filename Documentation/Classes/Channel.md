@@ -7,8 +7,9 @@ new Discord().Channel(channel, client)
 
 `.id` a snowflake - returns [String](https://javascript.info/types#string)
 
-`.type` the [type](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Useful.md) of Discord channel - returns [String](https://javascript.info/types#string)
+`.type` the [type](https://discord.com/developers/docs/resources/channel#channel-object-channel-types) of Discord channel - returns [String](https://javascript.info/types#string)
 
+Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Channel/Channel.js)
 
 # ServerChannel extends Channel
 ```js
@@ -32,15 +33,18 @@ Extends the regular Channels Properties. The additional properties include:
 
 ## Methods: 
 
-`.setName([name - string], [reason - string])` changes the channels name - returns channel [Object](https://javascript.info/object)
+`.setName([name - string], [reason - string])` changes the Channel's name - returns Channel [Object](https://javascript.info/object)
 
-`.setParent([category - object], [reason - string])` changes the parent category - returns channel [Object](https://javascript.info/object)
+`.setParent([category - object], [reason - string])` changes the parent category - returns Channel [Object](https://javascript.info/object)
 
-`.setTopic([topic - string], [reason - string])` changes the channels topic - returns channel [Object](https://javascript.info/object)
+`.setTopic([topic - string], [reason - string])` changes the Channels topic - returns Channel [Object](https://javascript.info/object)
 
-`.setPosition(position - number), [reason - string])` changes the channels position - returns channel [Object](https://javascript.info/object)
+`.setPosition(position - number), [reason - string])` changes the Channels position - returns Channel [Object](https://javascript.info/object)
 
-`.newInvite([options])` returns url [String](https://javascript.info/types#string)
+`.newInvite([options])` returns an [Invite](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Guild.md#a-guildinvite-is-a-discord-invite) [Object](https://javascript.info/object)
+
+
+Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Channel/ServerChannel.js)
 
 
 # [Text channel](https://discord.com/developers/docs/resources/channel#channel-object-channel-types) extends ServerChannel
@@ -50,15 +54,35 @@ new Discord().Text(channel, client)
 
 ## Properties:
 
-`.messages` list of channel message objects - returns [Array](https://javascript.info/array)
+`.messages` returns [ChannelMessages]() 
 
-`.lastMessage` returns message [Object](https://javascript.info/object)
+`.lastMessage` returns Message [Object](https://javascript.info/object)
 
 ## Methods: 
 
-`.send(content)` returns message [Object](https://javascript.info/object)
+`.send(content)` returns Message [Object](https://javascript.info/object)
+
+Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Channel/Text.js)
+
+# ChannelMessages
+```js
+new Discord().ChannelMessages(channel, client)
+```
+
+## Properties:
+
+`.client` returns Client [Object](https://javascript.info/object)
+
+`.channel` returns Channel [Object](https://javascript.info/object)
+
+## Methods:
+
+`.find(id)` - returns Message [Object](https://javascript.info/object)
+
+`.delete(amount)` bulk deletes messages newer than two weeks - returns Message [Objects](https://javascript.info/object)
 
 
-Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Channels)
+Source Code: [Click Here](https://github.com/discordjslib/discordjslib/blob/main/lib/Classes/Channel/ChannelMessages.js)
 
-[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Client.md)
+
+[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Client.md) 🡣
