@@ -5,7 +5,7 @@ new Discord().User(client, user)
 
 ## Properties:
 
-`.client` returns the client [Object](https://javascript.info/object)
+`.client` returns [Object](https://javascript.info/object)
 
 `.id` a snowflake - returns [String](https://javascript.info/types#string)
 
@@ -23,15 +23,39 @@ new Discord().User(client, user)
 
 `.system` an official Discord system user - returns [Boolean](https://javascript.info/types#string)
 
-`.flags` [Click Here for Examples](https://discord.com/developers/docs/resources/user#user-object-user-flags)(the flags are listed under the description column - returns [String](https://javascript.info/types#string)
+`.flags` [Click Here for Examples](https://discord.com/developers/docs/resources/user#user-object-user-flags) - returns [String](https://javascript.info/types#string)
 
 `.language` returns [String](https://javascript.info/types#string)
 
 
 ## Methods: 
 
-`.dm(message content)` direct messages a user - returns a User object [Object](https://javascript.info/object)
+`.dm(message content)` direct messages a user - returns a User [Object](https://javascript.info/object)
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/User/User.js)
 
-[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Channel.md)
+
+
+# A Presence represents a [Discord Presence](https://discord.com/developers/docs/topics/gateway-events#presence-update-presence-update-event-fields)
+```js
+new Discord().Presence(client, presence, user)
+```
+
+`.client` returns [Object](https://javascript.info/object)
+
+`.user` returns User [Object](https://javascript.info/object)
+
+`.activities` returns [Object](https://javascript.info/object)
+
+`.status` Either "idle", "dnd", "online", or "offline" - returns [String](https://javascript.info/types#string)
+
+`.clientStatus` User's platform-dependent status - returns [Object](https://javascript.info/object)
+
+`.guildID` returns [String](https://javascript.info/types#string)
+
+
+
+Source Code: [Click Here](https://github.com/discordjslib/discordjslib/blob/main/lib/Classes/User/Presence.js) 
+
+
+[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Channel.md) 🡣
