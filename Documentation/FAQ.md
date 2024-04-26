@@ -6,7 +6,7 @@
 ## Why is Discordjslib different to other libraries?
 - Discordjslib improves performance substantially because it does not cache any data on startup, read more about this below.
 
-- It is also incredibly simple and easy to use: [example here](https://github.com/discordjslib/discordjslib#discordjslib).
+- It is also incredibly simple and easy to use: [example here](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Welcome.md#example).
 
 ## How does Discordjslib handle real-time data fetching?
 - Discordjslib fetches data from the Discord API in real-time with each request, ensuring accuracy for your applications. 
