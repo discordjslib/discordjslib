@@ -31,13 +31,13 @@ new Discord().Guild(guild, client)
 
 `.emojis` returns [GuildEmojis](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Guild.md#GuildEmojis)
 
-`.owner` returns either a User.id [String](https://javascript.info/types#string) or a [User](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/User.md)
+`.owner` returns either a User.id [String](https://javascript.info/types#string) or a [User](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/User.md) [Object](https://javascript.info/object)
 
-`.bots` list of bot [Users](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/User.md) in the guild - returns [Array](https://javascript.info/array)
+`.bots` list of bot [Users](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/User.md) in the Guild - returns [Array](https://javascript.info/array)
 
 `.nsfw` returns [Number](https://javascript.info/types#number) relating to the [Guild NSFW Level](https://discord.com/developers/docs/resources/guild#guild-object-guild-nsfw-level)
 
-`.createdAt` when the guild was created - returns [Date](https://javascript.info/date)
+`.createdAt` when the Guild was created - returns [Date](https://javascript.info/date)
 
 
 
@@ -84,4 +84,4 @@ new Discord().GuildInvite(guild, client)
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Guild/Guild.js)
 
-[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/GuildMember.md)
+[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/GuildMember.md) 🡣
