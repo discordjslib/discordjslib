@@ -6,17 +6,17 @@ new Discord().Message(message, channel, client)
 ## Properties:
 
 
-`.client` returns the client [Object](https://javascript.info/object)
+`.client` returns the Client [Object](https://javascript.info/object)
 
-`.user` the author of the message - returns user [Object](https://javascript.info/object)
+`.user` the author of the Message - returns User [Object](https://javascript.info/object)
 
-`.member` returns guildmember (value not guaranteed; use .member() for reliablity) [Object](https://javascript.info/object)
+`.member` returns GuildMember [Object](https://javascript.info/object)
 
-`.channel` the channel the message was sent in - returns channel [Object](https://javascript.info/object)
+`.channel` the Channel the Message was sent in - returns Channel [Object](https://javascript.info/object)
 
-`.guild` the guild the message was sent in - returns guild [Object](https://javascript.info/object)
+`.guild` the Guild the Message was sent in - returns Guild [Object](https://javascript.info/object)
 
-`.content` the content of the message - returns [String](https://javascript.info/types#string)
+`.content` the content of the Message - returns [String](https://javascript.info/types#string)
 
 `.pinned` returns [Boolean](https://javascript.info/types#boolean-logical-type)
 
@@ -28,21 +28,19 @@ new Discord().Message(message, channel, client)
 
 `.attachements` returns [Array](https://javascript.info/array) 
 
-`.mentions` returns list of User objects [Array](https://javascript.info/array) 
+`.mentions` returns a list of User objects [Array](https://javascript.info/array) 
 
 ## Methods:
 
-`.member()` fetches member object from API - returns GuildMember [Object](https://javascript.info/object)
+`.reply` - responds to Message, mentioning original User - returns Message [Object](https://javascript.info/object)
 
-`.reply` - responds to message, mentioning original User - returns Message [Object](https://javascript.info/object)
+`.delete([Number - (timeout)])` deletes the Message - returns Message [Object](https://javascript.info/object)
 
-`.delete([Number - (timeout)])` deletes the message - returns message [Object](https://javascript.info/object)
+`.edit([String])` *edits the Message - returns Message [Object](https://javascript.info/object)
 
-`.edit([String])` *edits the message - returns message [Object](https://javascript.info/object)
+`.react([String])` reacts to the Message - returns [Message Reaction](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Reaction.md) [Object](https://javascript.info/object)
 
-`.react([String])` reacts to a message - returns [message reaction](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Reaction.md) [Object](https://javascript.info/object)
-
-*The message must be sent by the bot
+*The Message must be sent by the bot
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/blob/main/lib/Classes/Messages/Message.js)   
 
@@ -59,7 +57,7 @@ new Discord().MessageEmbed(data)
 
 `.fields` returns [Array](https://javascript.info/array)                        
 
-`.author` returns returns [String](https://javascript.info/types#string)       
+`.author` returns [String](https://javascript.info/types#string)       
 
 `.color` returns [String](https://javascript.info/types#string)                 
 
@@ -107,4 +105,4 @@ Note: Unless indicated otherwise, all methods return `this`
 
 Source Code: [Click Here](https://github.com/discordjslib/discordjslib/tree/main/lib/Classes/Message/MessageEmbed.js)
 
-[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Reaction.md)
+[Next Page](https://github.com/discordjslib/discordjslib/blob/main/Documentation/Classes/Reaction.md) 🡣
